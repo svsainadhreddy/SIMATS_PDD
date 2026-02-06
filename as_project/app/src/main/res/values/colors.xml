@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="gray_bg">#AAAAAA</color>
+    <color name="card_bg">#D9D9D9</color>
+    <color name="button_bg">#393939</color>
+    <color name="gold">#FFD166</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light_gray">#B1B5BF</color>
+    <color name="navy_gray_dark">#353C4A</color>
+    <color name="vivid">#6BE9FF</color>
+    <color name="calm">#B0BFFF</color>
+    <color name="primary">#6200EE</color>
+    <color name="primary_variant">#3700B3</color>
+    <color name="secondary">#03DAC5</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#000000</color>
+    <color name="on_surface">#000000</color>
+    <color name="on_error">#FFFFFF</color>
+    <color name="deep_purple_accent">#6F38C5</color>
+    <color name="emerald_accent">#17C3B2</color>
+    <color name="gray">#8A8A8A</color>
+    <color name="blue">#2366F9</color>
+    <color name="red">#E74C3C</color>
+    <color name="dark_text">#212121</color>
+    <color name="teal_dark">#12575B</color>
+    <color name="teal_light">#76B2AC</color>
+    <color name="coral">#FF6F61</color>
+    <color name="bgDark">#1A1A2E</color>
+    <color name="hintGray">#AAAAAA</color>
+    <color name="dividerGray">#33334D</color>
+    <color name="tealLight">#00FFC2</color>
+    <color name="tealDark">#00A88F</color>
+    <color name="colorGlassText">#f8fafd</color>
+    <color name="colorAccentGold">#c9b037</color>
+    <color name="colorIconAccent">#53b2fa</color>
+    <color name="colorInputText">#1a222d</color>
+    <color name="colorHintText">#6c7793</color>
+    <color name="pink">#ED85A8</color>
+    <color name="light_bg">#FFFFFF</color>
+    <color name="dark_bg">#C4121212</color>
+
+    <color name="Meditation_Blue">#6AA1A7</color>
+    <color name="White_Sand">#ECE9E4</color>
+    <color name="Limestone_Green">#A5AF9D</color>
+    <color name="Ash_Gray">#B2BEB5</color>
+    <color name="Citrine">#E4D00A</color>
+
+    <!-- background / surfaces -->
+    <color name="bg_dark_top">#051014</color>        <!-- used in bg_dark gradient -->
+    <color name="bg_dark_bottom">#08181B</color>
+
+    <!-- card -->
+    <color name="card_glass_bg">#11262A</color>
+
+    <!-- back icon -->
+    <color name="back_icon_tint">#2C5B6A</color>
+
+    <!-- title -->
+    <color name="title_indigo">#2C5564</color>
+
+    <!-- otp dot / box -->
+    <color name="otp_dot">#073033</color>
+
+    <!-- button disabled text and caption -->
+    <color name="btn_disabled_text">#6B6F74</color>
+    <color name="caption_muted">#9FA8A6</color>
+
+    <!-- utility -->
+    <color name="white_trans_10">#1AFFFFFF</color>
+
+
+    <color name="bg_parchment">#F7F3EE</color>
+    <color name="card_white">#FFFFFF</color>
+    <color name="teal_pale">#DFF5F1</color>
+    <color name="label_gray">#7A8B89</color>
+    <color name="hint_gray">#9AA6A3</color>
+    <color name="text_primary">#223233</color>
+    <color name="btn_text">#0B3A36</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="icon_gray">#7A838B</color>         <!-- subtle icon tint -->
+    <color name="icon_muted">#7A7A7A</color>
+    <color name="outline_default">#BDBDBD</color>
+
+    <color name="btn_enabled_color">#4CAF50</color>
+    <color name="primary_navy">#0B2545</color>
+    <color name="primary_navy_dark">#081433</color>
+    <color name="bg_soft">#F5F7FA</color>
+    <color name="text_secondary">#51607A</color>
+    <color name="outline">#E6EAF0</color>
+    <color name="surface_bg">#F5F6F7</color>          <!-- soft warm off-white -->
+    <color name="surface_card">#FFFFFF</color>         <!-- card surface -->
+    <color name="foreground_primary">#1F2937</color>   <!-- deep charcoal -->
+    <color name="foreground_secondary">#667085</color> <!-- muted slate -->
+    <color name="foreground_tertiary">#8A94A6</color>
+    <color name="border_stroke">#E6E9EE</color>
+    <color name="accent_teal">#0CA69A</color>
+    <color name="accent_gold">#D4A017</color>
+    <color name="warning_text">#B45309</color>
+
+
+
+    <color name="chat_bg">#F4F6F8</color>
+    <color name="header_bg">#E9ECEF</color>
+    <color name="ai_bg">#FFFFFF</color>
+    <color name="user_bg">#2BB0C9</color>
+    <color name="input_bg">#F1F3F5</color>
+    <color name="custom_text_color">#6B7C78</color>
+
+
+
+
+</resources>

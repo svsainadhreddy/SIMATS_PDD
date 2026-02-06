@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/appBackgroundColor"
+    >
+
+    <!-- Back Button  1A1A2E -->
+    <ImageButton
+        android:id="@+id/btnBack"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="42dp"
+        android:contentDescription="Back"
+        android:background="@drawable/circle_dark_bg"
+        android:src="@drawable/ic_arrow_back" />
+
+    <ScrollView
+        android:id="@+id/formScroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/btnBack"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/bg_card_dark"
+            android:backgroundTint="#B4B0BEA2"
+            android:padding="20dp"
+           >
+
+            <!-- Patient Photo -->
+
+            <ImageView
+                android:id="@+id/imgPatient"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="12dp"
+                android:background="@drawable/circle_bg"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_user" />
+
+            <TextView
+                android:id="@+id/tvAddPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Patient Photo"
+                android:textSize="18sp"
+                android:textColor="#6B7C78"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="24dp" />
+
+            <!-- Patient ID -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Patient ID"
+                android:paddingStart="10dp"
+                android:fontFamily="sans-serif"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                />
+
+            <EditText
+                android:id="@+id/etPatientId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Patient ID"
+                android:background="@drawable/chip_input_bg"
+                android:padding="17dp"
+                android:textColor="#6B7C78"
+                android:textColorHint="#6B7C78"
+                android:layout_marginTop="8dp" />
+
+            <!-- Name -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:fontFamily="sans-serif"
+                android:textSize="15sp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp"
+                />
+
+            <EditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:background="@drawable/chip_input_bg"
+                android:padding="17dp"
+                android:textColor="#6B7C78"
+                android:textColorHint="#6B7C78"
+                android:layout_marginTop="8dp" />
+
+            <!-- Gender -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="15sp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <LinearLayout
+                android:id="@+id/genderGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/chip_input_bg"
+                android:gravity="center"
+                android:padding="8dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/btnFemale"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Female"
+                    android:textColor="#6B7C78"
+                    android:background="@drawable/bg_segment_selected"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/btnMale"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Male"
+                    android:textColor="#6B7C78"
+                    android:background="@android:color/transparent"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/btnOther"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Other"
+                    android:textColor="#6B7C78"
+                    android:background="@android:color/transparent"
+                    android:textStyle="bold"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <!-- Age -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:paddingStart="10dp"
+                android:text="Age"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:id="@+id/ageContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="@drawable/chip_input_bg"
+                android:padding="17dp"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:id="@+id/btnAgeMinus"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="−"
+                    android:textSize="20sp"
+                    android:textColor="#6B7C78"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/etAgeInput"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:background="@android:color/transparent"
+                    android:inputType="number"
+                    android:text="24"
+                    android:textSize="16sp"
+                    android:textColor="#6B7C78" />
+
+                <TextView
+                    android:id="@+id/btnAgePlus"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="+"
+                    android:textSize="20sp"
+                    android:textColor="#6B7C78"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- Phone -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone"
+                android:textSize="15sp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/etPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:inputType="phone"
+                android:maxLength="10"
+                android:background="@drawable/chip_input_bg"
+                android:padding="17dp"
+                android:textColor="#6B7C78"
+                android:textColorHint="#6B7C78"
+                android:layout_marginTop="8dp" />
+
+            <!-- Weight -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Weight (kg)"
+                android:textSize="15sp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/etWeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Weight"
+                android:inputType="numberDecimal"
+                android:background="@drawable/chip_input_bg"
+                android:padding="17dp"
+                android:textColor="#6B7C78"
+                android:textColorHint="#6B7C78"
+                android:layout_marginTop="8dp" />
+
+            <!-- Height -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Height (cm)"
+                android:textSize="15sp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <EditText
+                android:id="@+id/etHeight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Height"
+                android:inputType="numberDecimal"
+                android:background="@drawable/chip_input_bg"
+                android:padding="17dp"
+                android:textColor="#6B7C78"
+                android:textColorHint="#6B7C78"
+                android:layout_marginTop="8dp" />
+
+            <!-- BMI -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BMI"
+                android:textSize="15sp"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="16dp" />
+
+            <TextView
+                android:id="@+id/etBMI"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@drawable/chip_input_bg"
+                android:padding="17dp"
+                android:textColor="#6B7C78"
+                android:layout_marginTop="8dp" />
+
+            <!-- Save Button -->
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSave"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/White_Sand"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
