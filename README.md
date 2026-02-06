@@ -1,6 +1,6 @@
 🏥 Overview
 
-POOC is a web-based healthcare application designed to predict the risk of Post-Operative Pulmonary Complications (PPC) in surgical patients using clinical parameters and machine learning models.
+POOC is a Android App -based healthcare application designed to predict the risk of Post-Operative Pulmonary Complications (PPC) in surgical patients using clinical parameters and machine learning models.
 
 The system assists doctors and hospitals in early risk assessment, prevention planning, and improved patient outcomes.
 
@@ -19,7 +19,7 @@ The system assists doctors and hospitals in early risk assessment, prevention pl
 ✅ Django backend with database storage
 
 
-![Alt text]<img width="209" height="712" alt="Screenshot 2026-01-20 153551" src="https://github.com/user-attachments/assets/1b076486-b5d5-4776-9158-2b9046e95141" />
+<img width="209" height="712" alt="Screenshot 2026-01-20 153551" src="https://github.com/user-attachments/assets/1b076486-b5d5-4776-9158-2b9046e95141" />
 
 🧠 How It Works
 
@@ -170,6 +170,7 @@ This project is developed for academic and research purposes.
   
 
 
+<img width="1130" height="438" alt="Screenshot 2026-02-02 111429" src="https://github.com/user-attachments/assets/828fafb2-c029-45db-a4bd-b5c01424ac2a" />
 
 
 
