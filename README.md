@@ -116,7 +116,7 @@ Best model selected based on:
  - F1-score
 
    
-![Alt text]<img width="530" height="716" alt="Screenshot 2026-02-02 120229" src="https://github.com/user-attachments/assets/254c7f5b-9889-4219-868e-6f28529ed300" />
+<img width="530" height="716" alt="Screenshot 2026-02-02 120229" src="https://github.com/user-attachments/assets/254c7f5b-9889-4219-868e-6f28529ed300" />
 <img width="319" height="713" alt="Screenshot 2026-01-20 153419" src="https://github.com/user-attachments/assets/fc2feca6-e39e-4596-bcc8-ca7f1e1ce7db" />
 
 
